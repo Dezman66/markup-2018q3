@@ -1,0 +1,21 @@
+*	{
+margin: 0px;
+padding: 0px;
+}
+a:link {
+	color: #D72020;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:visited {
+	color: #D72020;
+}
+header {
+	background: #FFD723 url(images/Bg.jpg) repeat-x;
+	font: 13px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+}
