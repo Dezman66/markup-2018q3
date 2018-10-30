@@ -1,6 +1,6 @@
 *{
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 a{
 	text-decoration: none;
@@ -10,20 +10,22 @@ li{
 	list-style: none;
 }
 body{
-	
+
 }
 .logo{
-	width: 100%;
-	display: flex;
-	justify-content: flex-start;
+	font-size: 14px;
+	display: inline-block;
+
 }
 .graficlogo{
-	padding: 5px;
-	max-width: 100%;
-	box-sizing: border-box;
+	
+	margin-top: 50px;
 }
 header{
 	background: url(../Image/Header\ BG@4X.png);
+}
+.filter{
+	background: rgba(0, 0, 0, 0.83);
 }
 nav{
 	margin: auto;
@@ -32,15 +34,28 @@ nav{
 }
 .topnav{
 	font-size: 14px;
-	margin-top: 40px;
+	display: inline;
+	
 }
 .topnav a{
-	color: #ffffff;
-	text-align: center;
+	font-family: ﻿Lato-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+	font-size: 16pt;
+	color: rgba(255, 255, 255, 255);
+	text-align: left;
 	padding: 14px 16px;
-	font-size: 15px;
 }
 .topnav a:hover{
-	border-bottom: 1px solid #ffffff;
-
+	border-bottom: 1px solid rgba(255, 255, 255, 255);
+}
+h1 {
+	font-family: ﻿MyriadPro-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+	font-size: 72pt;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
+}
+h2{
+	font-family: ﻿Georgia-Italic, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+	font-size: 32pt;
+	color: rgba(255, 255, 255, 255);
+	text-align: center;
 }
